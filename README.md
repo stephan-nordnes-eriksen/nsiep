@@ -1,4 +1,4 @@
-![NSIEP](/Photos/nsiep_logo.png?raw=true)
+![NSIEP](/Pictures/nsiep_logo.png?raw=true)
 
 # NSIEP keyboard layout
 
