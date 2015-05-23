@@ -2,7 +2,7 @@
 
 # NSIEP keyboard layout
 
-A strage keyboard layout. Read about it [on my blog](http://stephan-nordnes-eriksen.github.io/keyboard/custom/tech/2015/05/22/nsiep.html).
+A strage keyboard layout. Read about it [on my blog](http://stephan-nordnes-eriksen.github.io/keyboard/custom/tech/2015/05/22/nsiep.html)
 
 
 ## License
