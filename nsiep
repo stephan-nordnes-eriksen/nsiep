@@ -1,0 +1,189 @@
+// based on a keyboard map from an 'xkb/symbols/no' file
+
+default  partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    // Describes the differences between a very simple en_US
+    // keyboard and a NSIEP Norwegian keyboard with dead key support
+    // and all of ISO-8859-1 characters available.
+
+    include "latin(type2)"
+
+    name[Group1]="NSIEP Norwegian";
+
+
+
+    
+
+//////////////
+    // key <AE02>	{ [         2,   quotedbl,           at,  twosuperior ]	};
+    // key <AE03>	{ [         3, numbersign,     sterling, threesuperior]	};
+    // key <AE04>	{ [         4,   currency,       dollar,   onequarter ]	};
+    // key <AE05>	{ [         5,    percent,      onehalf,         cent ]	};
+    // key <AE06>	{ [         6,  ampersand,          yen,  fiveeighths ]	};
+    // key <AE07>	{ [         7,      slash,    braceleft,     division ]	};
+    // key <AE08>	{ [         8,  parenleft,  bracketleft, guillemotleft]	};
+    // key <AE09>	{ [         9, parenright, bracketright, guillemotright] };
+    // key <AE10>	{ [         0,      equal,   braceright,       degree ]	};
+    // key <AE11>	{ [         slash,      equal,   braceright,       degree ]	};
+    // key <AE12>	{ [         at,      equal,   braceright,       degree ]	};
+
+
+    // key <AD03>	{ [         e,          E,     EuroSign,         cent ]	};
+    // key <AD04>	{ [         r,          R,   registered,   registered ]	};
+    // key <AD05>	{ [         t,          T,        thorn,        THORN ]	};
+    // key <AD09>	{ [         o,          O,           oe,           OE ]	};
+    // key <AD11>	{ [     aring,  Aring, dead_diaeresis, dead_abovering ]	};
+    // key <AD12>	{ [apostrophe, asciicircum, dead_tilde, dead_caron ] };
+
+    // key <AC01>	{ [         a,          A,  ordfeminine,    masculine ]	};
+
+    // key <AB03>	{ [         c,          C,    copyright,    copyright ]	};
+    // key <AB08>	{ [     comma,  semicolon, dead_cedilla,  dead_ogonek ]	};
+    // key <AB09>	{ [    period,   colon, periodcentered, dead_abovedot ]	};
+    // key <AB10>	{ [     minus, underscore, dead_belowdot, dead_abovedot ] };
+
+
+
+
+    // key <AB09>	{ [    period,      colon,   ellipsis, periodcentered ]	};
+    // key <AB10>	{ [     minus, underscore,       endash,       emdash ]	};
+    // key <AD04>	{ [         r,          R,   registered,    trademark ]	};
+    // key <AD10>	{ [         p,          P,     Greek_pi,     Greek_PI ]	};
+    // key <AE05>	{ [         5,    percent,      onehalf,    0x1002030 ]	};
+
+    // key <AE11>	{ [      plus,   question,    plusminus, questiondown ]	};
+    // key <AE12>	{ [ backslash, dead_grave,   dead_acute,      notsign ]	};
+
+
+    // key <AC10>	{ [    oslash,   Ooblique,   dead_acute, dead_doubleacute ] };
+    // key <AC11>	{ [        ae,         AE, dead_circumflex, dead_caron]	};
+
+
+    key <BKSL>	{ [apostrophe,   asterisk, dead_doubleacute, multiply ]	};
+
+    key <TLDE>	{ [       exclam,    question,    underscore ]	}; //3,4?
+    key <AE01>	{ [         1,     quotedbl,   exclamdown,  onesuperior ]	};
+    key <AE02>	{ [         2,   parenleft,           at,  twosuperior ]	};
+    key <AE03>	{ [         3, parenright,     sterling, threesuperior]	};
+    key <AE04>	{ [         4,   braceleft,       dollar,   onequarter ]	};
+    key <AE05>	{ [         5,    braceright,      onehalf,         cent ]	};
+    key <AE06>	{ [         6,  numbersign,          yen,  fiveeighths ]	};
+    key <AE07>	{ [         7,      asterisk,    braceleft,     division ]	};
+    key <AE08>	{ [         8,  ampersand,  bracketleft, guillemotleft]	};
+    key <AE09>	{ [         9, bracketleft, bracketright, guillemotright] };
+    key <AE10>	{ [         0,      bracketright,   braceright,       degree ]	};
+    key <AE11>	{ [         slash,      backslash,   diaeresis,       degree ]	};
+    key <AE12>	{ [         at,      bar,   asciitilde,       degree ]	};
+
+
+    key <AD01>	{ [      semicolon,    colon]	};
+    key <AD02>	{ [      z,    Z]	};
+    key <AD03>	{ [      x,    X]	};
+    key <AD04>	{ [      d,    D, Greek_DELTA, Greek_delta]	};
+    key <AD05>	{ [      f,    F]	};
+    key <AD06>	{ [      j,    J]	};
+    key <AD07>	{ [      b,    B]	};
+    key <AD08>	{ [      w,    W]	};
+    key <AD09>	{ [      l,    L, U039B, U03BB]	};
+    key <AD10>	{ [      y,    Y]	};
+    key <AD11>	{ [      k,    K]	};
+    key <AD12>	{ [oslash, Ooblique ] };
+
+
+    key <AC01>	{ [      n,    N]	};
+    key <AC02>	{ [      s,    S, Greek_SIGMA, Greek_sigma]	};
+    key <AC03>	{ [      i,    I]	};
+    key <AC04>	{ [      e,    E, Greek_EPSILON, Greek_epsilon]	};
+    key <AC05>	{ [      p,    P, U03A0, 	U03C0]	};
+    key <AC06>	{ [      g,    G]	};
+    key <AC07>	{ [      t,    T, U03A4, U03C4]	};
+    key <AC08>	{ [      a,    A]	};
+    key <AC09>	{ [      r,    R]	};
+    key <AC10>	{ [      o,    O, Greek_OMEGA, Greek_omega]	};
+    key <AC11>	{ [      aring,  Aring]	};
+    key <AC12>	{ [apostrophe, asciicircum, dead_tilde, dead_caron ] };
+
+
+    key <LSGT>	{ [      minus,    less]	};
+    key <AB01>	{ [      comma,    greater]	};
+    key <AB02>	{ [      period,    equal]	};
+    key <AB03>	{ [      c,    C]	};
+    key <AB04>	{ [      m,    M]	};
+    key <AB05>	{ [      v,    V]	};
+    key <AB06>	{ [      h,    H]	};
+    key <AB07>	{ [      u,    U]	};
+    key <AB08>	{ [      q,    Q, sterling]	};
+    key <AB09>	{ [      plus,    asterisk, dollar, section]	};
+    key <AB10>	{ [      ae,    AE,      EuroSign]	};
+
+
+    // include "nbsp(level3n)"
+    // include "keypad(ossmath)"
+    // include "kpdl(comma)"
+
+    // include "level3(ralt_switch)"
+};
+
+partial alphanumeric_keys
+xkb_symbols "nodeadkeys" {
+
+    // Modifies the basic Norwegian layout to no dead keys
+
+    include "nsiep(basic)"
+
+    name[Group1]="NSIEP Norwegian (no dead keys)";
+
+    key <AE12>	{ [ backslash,      grave,        acute,       ogonek ]	};
+    key <AD12>	{ [ diaeresis, asciicircum,  asciitilde,       macron ]	};
+    key <AC10>	{ [    oslash,   Ooblique,        acute,  doubleacute ]	};
+    key <AC11>	{ [        ae,         AE,  asciicircum,        caron ]	};
+    key <AB08>	{ [     comma,  semicolon,      cedilla,       ogonek ]	};
+    key <AB09>	{ [    period,      colon, periodcentered,   abovedot ]	};
+};
+
+partial alphanumeric_keys
+xkb_symbols "winkeys" {
+
+     include "nsiep(basic)"
+     name[Group1]="NSIEP Norwegian (Win keys)";
+     include "eurosign(5)"
+};
+
+
+// Copied from macintosh_vndr/no
+partial alphanumeric_keys
+xkb_symbols "mac" {
+
+    // Describes the differences between a very simple en_US
+    // keyboard and a very simple Norwegian keyboard.
+
+    include "latin(type4)"
+    name[Group1]= "NSIEP Norwegian (Macintosh)";
+
+    // key <TLDE>	{ [       bar,    section     ]	};
+    // key <AE03>	{ [         3, numbersign,     sterling,     sterling ]	};
+    // key <AE04>	{ [         4,   currency,       dollar,       dollar ]	};
+    // key <AE06>	{ [         6,  ampersand, threequarters, fiveeighths ]	};
+    // key <AE07>	{ [         7,      slash,          bar,    backslash ]	};
+    // key <AE08>	{ [         8,  parenleft,  bracketleft,    braceleft ]	};
+    // key <AE09>	{ [         9, parenright, bracketright,   braceright ]	};
+    // key <AC10>	{ [    oslash,   Ooblique,   odiaeresis,   Odiaeresis ]	};
+    // key <AE11>	{ [      plus,   question     ]	};
+    // key <AC11>	{ [        ae,         AE     ]	};
+    // key <AD11>	{ [     aring,      Aring     ]	};
+    // key <AE12>	{ [ dead_grave, dead_acute,       acute,  dead_ogonek ]	};
+    // key <AD12>	{ [ diaeresis, asciicircum,  asciitilde,  dead_macron ]	};
+    // key <BKSL>	{ [        at,   asterisk     ]	};
+};
+
+partial alphanumeric_keys
+xkb_symbols "mac_nodeadkeys" {
+
+    // Modifies the basic Norwegian layout to no dead keys
+    include "nsiep(mac)"
+    name[Group1]= "Norwegian (Macintosh, no dead keys)";
+
+    key <AE12>	{ [      grave,     acute,        acute,       ogonek ]	};
+    key <AD12>	{ [  diaeresis, asciicircum, asciitilde,       macron ]	};
+};
