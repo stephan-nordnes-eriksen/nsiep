@@ -5,7 +5,7 @@ Copy the file [nsiep](!nsiep/linux/nsiep) to `/usr/share/X11/xkb/symbols/` and t
 
 Add a layout entry into `/usr/share/X11/xkb/rules/evdev.xml`
 
-´´´xml
+```xml
 <layout>
   <configItem>
     <name>nsiep</name>
@@ -16,7 +16,7 @@ Add a layout entry into `/usr/share/X11/xkb/rules/evdev.xml`
     </languageList>
   </configItem>
 </layout>
-´´´
+```
 
 Uncertain, but might need to add to `/usr/share/X11/xkb/rules/evdev.lst`:
 
