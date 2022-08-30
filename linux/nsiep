@@ -70,7 +70,7 @@ xkb_symbols "basic" {
     key <AE05>	{ [         5,    braceright,      onehalf,         cent ]	};
     key <AE06>	{ [         6,  numbersign,          yen,  fiveeighths ]	};
     key <AE07>	{ [         7,      asterisk,    braceleft,     division ]	};
-    key <AE08>	{ [         8,  ampersand,  bracketleft, guillemotleft]	};
+    key <AE08>	{ [         8,  ampersand,  percent, guillemotleft]	};
     key <AE09>	{ [         9, bracketleft, bracketright, guillemotright] };
     key <AE10>	{ [         0,      bracketright,   braceright,       degree ]	};
     key <AE11>	{ [         slash,      backslash,   diaeresis,       degree ]	};
