@@ -1,6 +1,6 @@
 # Linux support
 
-Copy the file [nsiep](!nsiep/linux/nsiep) to `/usr/share/X11/xkb/symbols/` and then select nsiep as the layout in your keyboard settings.
+Copy the file [nsiep](!nsiep/linux/nsiep) to `/usr/share/X11/xkb/symbols/`.
 
 Add this to `/usr/share/X11/xkb/rules/evdev.xml`
 
@@ -15,3 +15,7 @@ Add this to `/usr/share/X11/xkb/rules/evdev.xml`
       </variantList>
     </layout>
 ```
+
+Then, you need to log out, and log back in again for the effect to show up.
+
+Select nsiep as the layout in your keyboard settings. Now the layout should show up and be functioning.
