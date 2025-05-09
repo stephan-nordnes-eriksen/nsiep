@@ -1,0 +1,40 @@
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+*~
+
+# Build outputs
+build/
+dist/
+out/
+
+# Log files
+*.log
+log/
+logs/
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.sublime-*
+*.code-workspace
+.project
+.classpath
+.settings/
+
+# Environment and configuration files that might contain secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

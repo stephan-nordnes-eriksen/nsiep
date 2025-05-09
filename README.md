@@ -22,7 +22,20 @@ A strage keyboard layout. Read about it [on my blog](http://stephan-nordnes-erik
 
 ### Linux
 
-1. See ![Linux readme](/linux/readme.md) for instructions
+The NSIEP keyboard layout now supports both X11 and Wayland display servers in Linux.
+
+1. For automatic installation:
+   ```bash
+   # System-wide installation (requires sudo)
+   sudo ./linux/install.sh
+
+   # OR user-level installation (no sudo required)
+   ./linux/setup_user_wayland.sh
+   ```
+
+2. For manual installation and detailed instructions, see [Linux readme](/linux/readme.md)
+
+3. To verify your installation: `./linux/check_install.sh`
 
 # The Layout
 ![NSIEP layout](/Pictures/nsiep.png?raw=true)
@@ -38,4 +51,4 @@ A strage keyboard layout. Read about it [on my blog](http://stephan-nordnes-erik
 
 ## License
 
-MIT. Copyright Stephan Nordnes Erisken - 2015
+MIT. Copyright Stephan Nordnes Erisken - 2015-2025
